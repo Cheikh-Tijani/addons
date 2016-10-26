@@ -165,7 +165,7 @@
                     <title>SeproERP</title>
                     <link rel="shortcut icon" href="/web/static/src/img/favicon.ico" type="image/x-icon"/>
                     <link rel="stylesheet" href="/web/static/src/css/full.css" />
-                    <link rel="stylesheet" href="/web/static/src/css/monstyle.css"/>
+                    <link rel="stylesheet" href="/web/static/src/css/loginclient.css"/>
                     <t t-raw="head or ''"/>
                 </head>
                 <body t-att-class="body_classname">
@@ -192,7 +192,7 @@
                         <t t-if="not disable_database_manager">
                             <a class="" href="/web/database/manager">Manage Databases</a> |
                         </t>
-                        <a href="https://www.groupesepro.com" target="_blank">Powered by <span>SeproERP</span></a>
+                       <a href="https://www.groupesepro.com" target="_blank">Powered by <span>SeproERP</span></a>
                     </div>
 
                   </div>
@@ -202,7 +202,6 @@
 
         <template id="web.login" name="Login">
             <t t-call="web.login_layout">
-                <div class="loginclient">
                 <form class="oe_login_form" role="form" t-attf-action="/web/login{{ '?debug' if debug else '' }}" method="post" onsubmit="this.action = this.action + location.hash">
                    <input type="hidden" name="csrf_token" t-att-value="request.csrf_token()"/>
 
@@ -239,7 +238,6 @@
                     </div>
 
                 </form>
-                </div>
             </t>
         </template>
 

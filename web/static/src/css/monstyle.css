@@ -21,22 +21,22 @@
 }
 
 .login-block input#login {
-    background: #fff url('http://i.imgur.com/u0XmBmv.png') 20px top no-repeat;
+    background: #fff url('/web/static/src/img/login.png') 20px top no-repeat;
     background-size: 16px 80px;
 }
 
 .login-block input#login:focus {
-    background: #fff url('http://i.imgur.com/u0XmBmv.png') 20px bottom no-repeat;
+    background: #fff url('/web/static/src/img/login.png') 20px bottom no-repeat;
     background-size: 16px 80px;
 }
 
 .login-block input#password , input#master_pwd, input#master_pwd_new {
-    background: #fff url('http://i.imgur.com/Qf83FTt.png') 20px top no-repeat;
+    background: #fff url('/web/static/src/img/cadenas.png') 20px top no-repeat;
     background-size: 16px 80px;
 }
 
 .login-block input#password:focus, input#master_pwd:focus, input#master_pwd_new:focus {
-    background: #fff url('http://i.imgur.com/Qf83FTt.png') 20px bottom no-repeat;
+    background: #fff url('/web/static/src/img/cadenas.png') 20px bottom no-repeat;
     background-size: 16px 80px;
 }
 
@@ -48,11 +48,4 @@
    position: relative;
    left: -20px;
    top: -40px;
-}
-.loginclient{
-    width: auto;
-    padding: 20px;
-    background: #fff;
-    border-radius: 5px;
-    box-shadow: 0.33px 2px 8px rgba(0,0,0,0.3);
 }
