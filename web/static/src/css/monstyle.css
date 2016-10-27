@@ -1,10 +1,12 @@
 .login-block {
-    width: auto;
+    width: 100%;
     padding: 20px;
     background: #fff;
     border-radius: 5px;
-    box-shadow: 0.33px 2px 8px rgba(0,0,0,0.3);
-    background-color: transparent;
+    box-shadow: 0.33px 2px 30px rgba(0,0,0,0.3);
+    border-top: 7px solid #2551a1;
+    margin-top: 15px;
+    border-bottom: 7px solid #000;
 }
 
 .login-block input#login, input#password, input#master_pwd, input#master_pwd_new  {
@@ -30,14 +32,18 @@
     background-size: 16px 80px;
 }
 
-.login-block input#password , input#master_pwd, input#master_pwd_new {
+.login-block input#password , input#master_pwd, input#master_pwd_new, #password {
     background: #fff url('/web/static/src/img/cadenas.png') 20px top no-repeat;
     background-size: 16px 80px;
 }
 
-.login-block input#password:focus, input#master_pwd:focus, input#master_pwd_new:focus {
+.login-block input#password:focus, input#master_pwd:focus, input#master_pwd_new:focus, #password:focus {
     background: #fff url('/web/static/src/img/cadenas.png') 20px bottom no-repeat;
     background-size: 16px 80px;
+}
+.datamangerimage{
+    background-image: url("/web/static/src/img/backgrounddatamanager.png");
+    background-repeat: no-repeat;
 }
 
 #test{
@@ -48,4 +54,23 @@
    position: relative;
    left: -20px;
    top: -40px;
+}
+/*
+.headerlogin{
+
+    height: 30px;
+    background: #2551a1;
+    background: -moz-linear-gradient(-45deg, #000000 0%, #000000 13%, #2551a1 13%, #2551a1 100%);
+    background: -webkit-gradient(linear, left top, right bottom, color-stop(0%, #000000), color-stop(13%, #000000), color-stop(13%, #2551a1), color-stop(100%, #2551a1));
+    background: -webkit-linear-gradient(-45deg, #000000 0%, #000000 13%, #2551a1 13%, #2551a1 100%);
+    background: -o-linear-gradient(-45deg, #000000 0%, #000000 13%, #2551a1 13%, #2551a1 100%);
+    background: -ms-linear-gradient(-45deg, #000000 0%, #000000 13%, #2551a1 13%, #2551a1 100%);
+    background: linear-gradient(135deg, #000000 0%, #000000 13%, #2551a1 13%, #2551a1 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#125882', endColorstr='#16618c',GradientType=1 );
+    margin-bottom: 15px;
+}
+*/
+.login-block .form-group{
+    margin-left: 20px;
+    margin-right: 20px;
 }

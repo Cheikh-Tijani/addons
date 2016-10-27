@@ -9,12 +9,15 @@ body {
     margin: 0;
     overflow-y: scroll;
     height: 100%;
+    background-image: image("http://www.planwallpaper.com/static/images/518151-backgrounds_W3qVPu2.jpg");
 }
 .oe_login_form{
     width: auto;
     padding: 20px;
     border-radius: 5px;
-    box-shadow: 0.33px 2px 8px rgba(0,0,0,0.3);
+    box-shadow: 0.33px 2px 30px rgba(0,0,0,0.3);
+    border-top: 7px solid #4d7496;
+
 }
 .oe_login_form .form-group{
     margin-left: 25px;
@@ -26,6 +29,9 @@ body {
    top: 0px;
 }
 .o_database_list img{
+    margin-top: 90px;
     margin-bottom: 15px;
-    margin-top: 200px;
+}
+.openerp .oe_leftbar .oe_footer a span{
+
 }
