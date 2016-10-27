@@ -165,7 +165,6 @@
                     <title>SeproERP</title>
                     <link rel="shortcut icon" href="/web/static/src/img/favicon.ico" type="image/x-icon"/>
                     <link rel="stylesheet" href="/web/static/src/css/full.css" />
-                    <link rel="stylesheet" href="/web/static/src/css/loginclient.css"/>
                     <t t-raw="head or ''"/>
                 </head>
                 <body t-att-class="body_classname">

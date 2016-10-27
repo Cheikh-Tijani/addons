@@ -112,8 +112,9 @@
 {%- endmacro %}
 
 
-<body class="container">
+<body class="container-fluid datamangerimage">
 
+   <header class="headerlogin"></header>
   <!-- Database List -->
   <div class="row test">
     <div class="col-md-6 col-md-offset-3 o_database_list">
@@ -163,19 +164,17 @@
         </div>
         {% endif %}
       {% else %}
-          <div  id="masterpage" class="login-block">
-              <form role="form" action="/web/database/create" method="post">
+              <form role="form" action="/web/database/create" method="post" class="login-block">
                   {{ create_form() }}
                   <input type="submit" value="Create database" class="btn btn-primary pull-right" id="crdatabase"/>
               </form>
-          </div>
 
       {% endif %}
     </div>
   </div>
 
   <!-- Create -->
-  <div class="modal fade o_database_create login-block" role="dialog">
+  <div class="modal fade o_database_create" role="dialog">
     <div class="modal-dialog">
       <div class="modal-content">
         <form role="form" action="/web/database/create" method="post">
@@ -195,7 +194,7 @@
   </div>
 
   <!-- Restore -->
-  <div class="modal fade o_database_restore login-block" role="dialog">
+  <div class="modal fade o_database_restore" role="dialog">
     <div class="modal-dialog">
       <div class="modal-content">
         <div class="modal-header">
@@ -241,7 +240,7 @@
 
 
   <!-- Master password -->
-  <div class="modal fade o_database_master login-block" role="dialog">
+  <div class="modal fade o_database_master" role="dialog">
     <div class="modal-dialog">
       <div class="modal-content">
         <div class="modal-header">
@@ -268,7 +267,7 @@
 
 
   <!-- Duplicate DB -->
-  <div class="modal fade o_database_duplicate login-block" role="dialog">
+  <div class="modal fade o_database_duplicate" role="dialog">
     <div class="modal-dialog">
       <div class="modal-content">
         <div class="modal-header">
@@ -296,7 +295,7 @@
   </div>
 
   <!-- Drop DB -->
-  <div class="modal fade o_database_delete login-block" role="dialog">
+  <div class="modal fade o_database_delete" role="dialog">
     <div class="modal-dialog">
       <div class="modal-content">
         <div class="modal-header">
@@ -320,7 +319,7 @@
   </div>
 
   <!-- Backup DB -->
-  <div class="modal fade o_database_backup login-block" role="dialog">
+  <div class="modal fade o_database_backup" role="dialog">
     <div class="modal-dialog">
       <div class="modal-content">
         <div class="modal-header">
