@@ -590,8 +590,8 @@
   flex-grow: 0;
   width: 220px;
   height: 100%;
-  background: #f0eeee;
-  border-right: 1px solid #afafb6;
+  background: #ffffff;
+  border-right: 1px solid #000000;
   position: relative;
   display: inline-block\9;
   vertical-align: top\9;
@@ -647,7 +647,7 @@
 }
 .openerp .oe_secondary_menu_section > .oe_menu_leaf {
   font-weight: bold;
-  color: #7C7BAD;
+  color: #000000;
 }
 .openerp .oe_secondary_submenu {
   margin-bottom: 10px !important;
@@ -820,7 +820,7 @@
   padding: 5px 5px;
 }
 .openerp .oe-control-panel {
-  background-color: #f0eeee;
+  background-color: #ffffff;
   border-bottom: 1px solid #afafb6;
   -webkit-box-flex: 0;
   -webkit-flex: 0 0 auto;
@@ -886,7 +886,7 @@
   font-size: 18px;
   padding-left: 0;
   margin: 0;
-  background-color: #f0eeee;
+  background-color: #ffffff;
 }
 .openerp .oe-control-panel .oe-view-title li {
   -moz-user-select: initial;
