@@ -1,12 +1,12 @@
-# Translation of OpenERP Server. 
+# Translation of SeproERP Server. 
 # This file contains the translation of the following modules: 
 #	* l10n_ca 
 # 
 
 msgid "" 
 msgstr ""
-"Project-Id-Version: OpenERP Server 6.0dev\n" 
-"Report-Msgid-Bugs-To: support@openerp.com\n" 
+"Project-Id-Version: SeproERP Server 6.0dev\n" 
+"Report-Msgid-Bugs-To: support@SeproERP.com\n" 
 "POT-Creation-Date: 2010-08-02 21:08:34+0000\n" 
 "PO-Revision-Date: 2010-08-02 21:08:34+0000\n" 
 "Last-Translator: <>\n" 
@@ -28,8 +28,8 @@ msgstr "Asset View"
 
 #. module: l10n_ca 
 #: model:ir.module.module,description:l10n_ca.module_meta_information 
-msgid "This is the module to manage the canadian accounting chart in OpenERP." 
-msgstr "This is the module to manage the canadian accounting chart in OpenERP."
+msgid "This is the module to manage the canadian accounting chart in SeproERP." 
+msgstr "This is the module to manage the canadian accounting chart in SeproERP."
 
 #. module: l10n_ca 
 #: model:account.account.type,name:l10n_ca.acct_type_expense_view 
